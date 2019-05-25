@@ -196,9 +196,9 @@ $all_files_size = 0;
                             <a href="javascript:document.getElementById('a-copy').click();" class="btn btn-small btn-outline-primary btn-2"><i class="fa fa-files-o"></i> <?php echo lng('Copy') ?> </a></li>
                     </ul>
                 </div>
-                <div class="col-3 d-none d-sm-block"><a href="https://tinyfilemanager.github.io" target="_blank" class="float-right text-muted">KrishiTV File Manager <?php echo VERSION; ?></a></div>
+                <div class="col-3 d-none d-sm-block"><a href="#" target="_blank" class="float-right text-muted">KrishiTV File Manager <?php echo VERSION; ?></a></div>
             <?php else: ?>
-                <div class="col-12"><a href="https://tinyfilemanager.github.io" target="_blank" class="float-right text-muted">KrishiTV File Manager <?php echo VERSION; ?></a></div>
+                <div class="col-12"><a href="#" target="_blank" class="float-right text-muted">KrishiTV File Manager <?php echo VERSION; ?></a></div>
             <?php endif; ?>
         </div>
 
