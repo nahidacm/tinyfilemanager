@@ -43,4 +43,4 @@ if (!empty($folders)) {
 }
 
 require_once 'views.php';
-require_once 'functions.php';
+

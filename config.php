@@ -9,10 +9,10 @@ $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false}';
  */
 
 //TFM version
-define('VERSION', '2.3.6');
+define('VERSION', '1.0.0');
 
 //Application Title
-define('APP_TITLE', 'Tiny File Manager');
+define('APP_TITLE', 'KrishiTV File Manager');
 
 // Auth with login/password (set true/false to enable/disable it)
 // Is independent from IP white- and blacklisting
@@ -70,11 +70,11 @@ $default_timezone = 'Etc/UTC'; // UTC
 
 // Root path for file manager
 // use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
-$root_path = __DIR__;
+$root_path = __DIR__.'/uploads';
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
-$root_url = '';
+$root_url = 'tinyfilemanager/uploads';
 
 // Server hostname. Can set manually if wrong
 $http_host = $_SERVER['HTTP_HOST'];
