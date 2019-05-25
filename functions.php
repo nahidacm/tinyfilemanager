@@ -696,3 +696,13 @@ function fm_get_onlineViewer_exts()
 {
     return array('doc', 'docx', 'xls', 'xlsx', 'pdf', 'ppt', 'pptx', 'ai', 'psd', 'dxf', 'xps', 'rar');
 }
+
+require_once 'views/template-functions/fm_get_images.php';
+require_once 'views/template-functions/fm_show_footer.php';
+require_once 'views/template-functions/fm_show_footer_login.php';
+require_once 'views/template-functions/fm_show_header.php';
+require_once 'views/template-functions/fm_show_header_login.php';
+require_once 'views/template-functions/fm_show_image.php';
+require_once 'views/template-functions/fm_show_message.php';
+require_once 'views/template-functions/fm_show_nav_path.php';
+require_once 'views/template-functions/lng.php';
