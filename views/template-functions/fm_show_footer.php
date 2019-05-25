@@ -13,6 +13,8 @@ function fm_show_footer()
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
     <?php if (FM_USE_HIGHLIGHTJS): ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+    <script src="<?php echo FM_ROOT_URL.'/static/js/jquery.fittext.js' ?>"></script>
+    <script src="<?php echo FM_ROOT_URL.'/static/js/script.js' ?>"></script>
     <script>hljs.initHighlightingOnLoad(); var isHighlightingEnabled = true;</script>
 <?php endif; ?>
     <script>

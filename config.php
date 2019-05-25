@@ -74,7 +74,7 @@ $root_path = __DIR__.'/uploads';
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
-$root_url = 'tinyfilemanager/uploads';
+$root_url = 'tinyfilemanager';///uploads';
 
 // Server hostname. Can set manually if wrong
 $http_host = $_SERVER['HTTP_HOST'];
@@ -111,7 +111,7 @@ $GLOBALS['online_viewer'] = 'google';
 $sticky_navbar = true;
 
 // max upload file size
-define('MAX_UPLOAD_SIZE', '2048');
+define('MAX_UPLOAD_SIZE', '204800');
 
 //--- EDIT BELOW CAREFULLY OR DO NOT EDIT AT ALL
 

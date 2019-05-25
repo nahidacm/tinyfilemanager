@@ -291,6 +291,28 @@ function fm_show_header()
             .ekko-lightbox-nav-overlay a:hover{
                 color: #20507D;
             }
+            .pt-3 .card-img-top i.fa {
+                width: 100%;
+                display: block;
+                height: 200px;
+                text-align: center;
+                margin-top: 8px;
+            }
+            .pt-3 .card .card-title{
+                text-align: center;
+            }
+            .pt-3 .card-body .inline-actions{
+                text-align: center;
+            }
+            .pt-3 .card{
+                margin-bottom: 10px;
+            }
+            .pt-3 .custom-checkbox-td, .pt-3 .custom-checkbox {
+                display: inline-block;
+                width: 35px;
+                margin-left: 2px;
+                position: absolute;
+            }
             #main-table span.badge{border-bottom:2px solid #f8f9fa}#main-table span.badge:nth-child(1){border-color:#df4227}#main-table span.badge:nth-child(2){border-color:#f8b600}#main-table span.badge:nth-child(3){border-color:#00bd60}#main-table span.badge:nth-child(4){border-color:#4581ff}#main-table span.badge:nth-child(5){border-color:#ac68fc}#main-table span.badge:nth-child(6){border-color:#45c3d2}
             @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) { .navbar-collapse .col-xs-6.text-right { padding: 0; } }
             .btn.active.focus,.btn.active:focus,.btn.focus,.btn.focus:active,.btn:active:focus,.btn:focus{outline:0!important;outline-offset:0!important;background-image:none!important;-webkit-box-shadow:none!important;box-shadow:none!important}
