@@ -54,7 +54,9 @@ $ip_blacklist = array(
 
 // user specific directories
 // array('Username' => 'Directory path', 'Username2' => 'Directory path', ...)
-$directories_users = array();
+$directories_users = array(
+    'admin'=>'admin'
+);
 
 // Enable highlight.js (https://highlightjs.org/) on view's page
 $use_highlightjs = true;
@@ -70,7 +72,7 @@ $default_timezone = 'Etc/UTC'; // UTC
 
 // Root path for file manager
 // use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
-$root_path = __DIR__.'/uploads';
+$root_path = __DIR__;
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
@@ -96,7 +98,23 @@ $favicon_path = '?img=favicon';
 
 // Array of files and folders excluded from listing
 // e.r array('myfile.html', 'personal-folder')
-$GLOBALS['exclude_items'] = array();
+$GLOBALS['exclude_items'] = array(
+    'LICENSE',
+    'authentication.php',
+    'includes.php',
+    'translation.json',
+    'README.md',
+    'classes',
+    'screenshot.gif',
+    'actions',
+    'config.php',
+    'static',
+    'views',
+    'actions.php',
+    'functions.php',
+    'tinyfilemanager.php',
+    'views.php'
+);
 
 // Online office Docs Viewer
 // Availabe rules are 'google', 'microsoft' or false
@@ -171,7 +189,7 @@ if (defined('FM_EMBED')) {
 }
 
 if (empty($auth_users)) {
-    $use_auth = false;
+    $use_auth = true;
 }
 
 $is_https = isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1)
